@@ -51,3 +51,4 @@ Runs FATCAT between every chain in both PDB inputs and returns cif file for ever
 fatcat_savexml(pdb1,pdb2)
 Runs FATCAT and saves alignment as an xml file
 
+
