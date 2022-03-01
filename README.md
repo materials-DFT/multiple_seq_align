@@ -1,4 +1,4 @@
-# Installing & Running FATCAT 1.0 (required to run ImportGlob method)
+## Installing & Running FATCAT 1.0 (required to run ImportGlob method)
 Running FATCAT 1.0 (include citation) will allow users to run the flexible protein alignment tool needed to run some of the methods 
 Recommended to verify that FATCAT is running properly prior to running methods such as ‘ImportGlob’
 
@@ -20,12 +20,12 @@ Ex:
 bash runFATCAT.sh -pdb1 1ake -pdb2 2ake -pdbFilePath /Users/name/Documents/pdb_file_folder/ -autoFetch -printFatCat -flexible
 
 
-### protein3dcompare class
+## protein3dcompare class
 
-# Installing
+### Installing
 Clone the Protein Comparison Tool repository
 
-# Dependencies
+### Dependencies
 Install the latest version of Java: https://www.java.com/en/download/
 Install Pymol: https://pymol.org/2/
 
@@ -34,14 +34,14 @@ requests
 BeautifulSoup
 pandas
 
-# Main Methods
+### Main Methods
 *Enter pdbDirectory and outputDirectory as prompted
 
 getHomologData(genename, targetprotein, pdbidlist)
 
 Returns a dataframe and excel spreadsheet ("genenamedata.xlsx") including pdb id, uniprot id, organism, pdb entry name, global stoichiometry, length, associated pubmed ID(s), and Taxonomy for each pdb in pdbidlist
 
-# FATCAT Methods
+### FATCAT Methods
 importGlob(pdb1, pdb2)
 Runs FATCAT and saves alignment as a cif file
 
