@@ -1,9 +1,9 @@
 ## Installing & Running FATCAT 1.0 (required to run ImportGlob method)
-Running FATCAT 1.0 (include citation) will allow users to run the flexible protein alignment tool needed to run some of the methods 
+Running FATCAT 1.0 (Ye and Godzik, 2003) will allow users to run the flexible protein alignment tool needed to run some of the methods 
 Recommended to verify that FATCAT is running properly prior to running methods such as ‘ImportGlob’
 
 Materials
-Download the folder ‘ProteinComparisonTool’ from Github 
+Download the folder ‘protein comparison tool’ from Github 
 
 Before Beginning 
 Have Anaconda & JAVA installed
