@@ -23,7 +23,7 @@ prot = ''
 path = ''
 
 # xmlList: list of pdb ID's of target's homologs
-'''In order to run this script it is important that the first alignment in the xmlList has the earlist protein '''
+'''In order to run this script it is important that the first alignment in the xmlList has the longest protein sequence '''
 
 xmlList = []
 
